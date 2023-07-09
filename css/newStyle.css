@@ -1,0 +1,200 @@
+.bg-nero5{
+    background-color: #272727;
+}
+.font_size{
+    font-size: 19px;
+}
+
+.animateBox{
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+}
+
+.animateBox:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.animateBox.show{
+    transform: translateX(0);
+}
+
+.effect_style:hover{
+    background-color:wheat;
+    border-radius: 10px;
+}
+
+.image_hover:hover{
+    transform:scale(.9);
+}
+
+.fontsize_1{
+    font-size: 20px;
+}
+.hover_effect_2:hover{
+    color:burlywood;
+}
+.form_input input{
+    font-size: 17px !important;
+}
+.text_area_font{
+    font-size: 17px !important;
+}
+
+/* contact footer css  */
+.contact_footer{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 999999999;
+}
+.contact_footer a{
+    color: white;
+}
+.call_now_div {
+    width: 33%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enquire_now{
+    width: 33%;
+    color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp{
+    width: 33%;
+    color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five_steps_container{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.step1{
+    width: 40px;
+    height: 40px;
+     background-color:#ef5350;
+     color: white;
+     border-radius: 50%;
+     padding: 10px;
+}
+.step2{
+    width: 40px;
+    height: 40px; 
+    background-color: #ef5350;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.step3{
+    width: 40px;
+    height: 40px;
+    background-color: #ef5350;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.step4{
+    width: 40px;
+    height: 40px;
+     background-color: #ef5350;
+     color: white;
+     border-radius: 50%;
+     padding: 10px;
+}
+.step5{
+    width: 40px;
+    height: 40px; 
+    background-color: #ef5350;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.line{
+    width: 200px; 
+    height:1px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+.steps_cap1{
+    width: 40px;
+    width: 200px; 
+    padding-left: 7px;
+}
+.steps_cap1 p{
+    font-size: 17px;
+    /* font-weight: 600; */
+    margin-top: 10px;
+}
+.steps_cap2{
+    width: 40px;
+    width: 160px; 
+    padding-left: 20px;
+}
+.steps_cap2 p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.steps_cap3{
+    width: 40px;
+    width: 200px; 
+    padding-left: 85px;
+}
+.steps_cap3 p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.steps_cap4{
+    width: 40px;
+    width: 200px; 
+    padding-left: 115px;
+}
+.steps_cap4 p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.steps_cap5{
+    width: 40px;
+    width: 200px; 
+    padding-left: 50px;
+}
+.steps_cap5 p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+@media screen and (min-width: 600px) {
+    .contact_footer{
+        display: none;
+    }
+    
+  }
+
+  @media screen and (max-width:600px){
+   .phone_hide{
+    display: none;
+   }
+   .footer-style4{
+    padding-bottom: 90px !important;
+   }
+  }
